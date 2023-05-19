@@ -3,15 +3,13 @@ import MovieList from "./MovieList";
 
 const Movie = () => {
   type MovieState = {
-    data: {
-      title: string;
-      url: string;
-      views: number;
-      isWatched: boolean;
-    }[];
-  };
+    title: string;
+    url: string;
+    views: number;
+    isWatched: boolean;
+  }[];
 
-  const [movieObj, setMovieObj] = useState<MovieState["data"]>([]);
+  const [movieObj, setMovieObj] = useState<MovieState>([]);
 
   let movieData = [
     {

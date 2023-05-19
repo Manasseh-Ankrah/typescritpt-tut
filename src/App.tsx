@@ -25,10 +25,10 @@ function App() {
       {/* <String_DT /> */}
       {/* <Array_DT /> */}
       {/* <Tuple_DT /> */}
-      {/* <Movie /> */}
+      <Movie />
       {/* <Enum_DT /> */}
       {/* <Unknown_DT /> */}
-      <AddNumbers />
+      {/* <AddNumbers /> */}
     </div>
   );
 }
